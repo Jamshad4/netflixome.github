@@ -1,0 +1,327 @@
+body {
+  margin: 0;
+}
+.background {
+  background-image: url("back.jpg");
+  width: 100%;
+  height: 1000px;
+}
+.shade {
+  width: 100%;
+  height: 1000px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.head {
+  width: 100%;
+  height: 100px;
+}
+.lefthead {
+  width: 20%;
+  height: 100px;
+  float: left;
+}
+.logo {
+  width: 60%;
+  height: 90px;
+
+  margin-left: 20%;
+}
+.righthead {
+  width: 40%;
+  height: 100px;
+  float: left;
+  margin-left: 40%;
+}
+.language {
+  width: 96px;
+  height: 30px;
+  color: white;
+  border: 1px solid white;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  margin-top: 4%;
+  margin-left: 50%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+
+  float: left;
+}
+.ri-global-line {
+  color: aliceblue;
+}
+select {
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+}
+option {
+  color: white;
+  background-color: rgb(68, 66, 66);
+}
+.sign {
+  width: 96px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  float: left;
+  margin-left: 58px;
+  border-radius: 3px;
+  border: 0;
+  margin-top: 30px;
+  font-size: 19px;
+  font-weight: 550;
+  cursor: pointer;
+}
+.story {
+  width: 60%;
+  height: 450px;
+  margin-left: 20%;
+  margin-top: 140px;
+  margin-bottom: 30px;
+}
+.title {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  color: aliceblue;
+  font-size: 35px;
+  text-align: center;
+}
+.tophead {
+  display: block;
+  font-size: 65px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 600;
+}
+.subtitle {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: aliceblue;
+  margin-top: -30px;
+}
+.lasttitle {
+  font-size: 20px;
+}
+.email {
+  width: 540px;
+  height: 60px;
+  margin-left: 100px;
+  font-size: 15px;
+  padding-left: 10px;
+  float: left;
+}
+.start {
+  background-color: red;
+  color: aliceblue;
+  width: 212px;
+  height: 65px;
+  font-size: 30px;
+  float: left;
+  border: 0;
+  text-align: center;
+}
+.border {
+  width: 100%;
+  height: 10px;
+  background-color: #333;
+}
+.promotion {
+  width: 100%;
+  height: 473px;
+  background-color: black;
+}
+.leftpromotion {
+  width: 50%;
+  height: 473px;
+  float: left;
+}
+.titletv {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 22%;
+  padding-top: 100px;
+}
+.righttitletv {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 60%;
+  padding-top: 100px;
+}
+.subtitletv {
+  font-size: 28px;
+  font-family: sans-serif;
+  color: aliceblue;
+  padding-left: 22%;
+  padding-top: 4%;
+}
+.rightpromotion {
+  float: left;
+  width: 50%;
+  height: 473px;
+}
+.display {
+  margin-top: 10%;
+  margin-left: 20%;
+  width: 473px;
+}
+.video {
+  width: 387px;
+  height: 215px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.tv {
+  margin-top: -306px;
+  width: 530px;
+  margin-left: 30px;
+}
+.phone {
+  width: 60%;
+  margin-left: 20%;
+  background-image: url("phone.jpg");
+  height: 100%;
+  float: left;
+}
+.animation {
+  width: 330px;
+  height: 104px;
+  background-color: blue;
+  float: left;
+}
+.secondsubtitle {
+  font-size: 28px;
+  font-family: sans-serif;
+  color: aliceblue;
+  padding-left: 60%;
+  padding-top: 2%;
+}
+.animationvideo {
+  width: 342px;
+  height: 215px;
+  margin-top: 37px;
+  margin-left: 100px;
+}
+.animationtv {
+  margin-top: -245px;
+  width: 530px;
+  margin-left: 14px;
+}
+.animation2 {
+  width: 504px;
+  height: 382px;
+  margin-left: 11%;
+  margin-top: 4%;
+}
+.questions {
+  width: 100%;
+  height: 938px;
+  background-color: black;
+}
+.questionhead {
+  width: 100%;
+  height: 20%;
+}
+.questiontitle {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+}
+.table {
+  width: 815px;
+  height: 493px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.question {
+  width: 703px;
+  height: 58px;
+  background-color: #333;
+  list-style-type: none;
+  font-weight: 400;
+  margin: 0 0 8px;
+  font-size: 207%;
+  font-family: sans-serif;
+  color: aliceblue;
+  padding-left: 4%;
+  padding-top: 2%;
+}
+span {
+  float: right;
+  padding-right: 5%;
+  font-size: 40px;
+}
+.questionlast {
+  font-size: 28px;
+  color: white;
+  margin-left: 30%;
+  font-family: sans-serif;
+}
+.lastemail {
+  width: 450px;
+  height: 60px;
+  margin-left: 450px;
+  font-size: 15px;
+  padding-left: 10px;
+  float: left;
+}
+.last {
+  width: 900px;
+  height: 295px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.lasthead {
+  height: 20px;
+  font-family: sans-serif;
+  color: #6b6b6b;
+  padding-left: 4%;
+  padding-top: 7%;
+}
+.supports {
+  color: #6b6b6b;
+  font-family: sans-serif;
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 0 12px 0 0;
+  width: 23%;
+  font-size: 12px;
+}
+.lastlanguage {
+  width: 96px;
+  height: 30px;
+  border: 1px solid #6b6b6b;
+  margin-left: 24%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+}
+.lastri-global-line {
+  color: #6b6b6b;
+}
+.lastselect {
+  color: #6b6b6b;
+}
+.lastsupports {
+  color: #6b6b6b;
+  list-style-type: none;
+  font-family: sans-serif;
+  margin-left: 22%;
+  font-size: 12px;
+}
